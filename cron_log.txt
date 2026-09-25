@@ -1,0 +1,28 @@
+Sep 11 14:17:41 ip-10-81-98-248 systemd[1]: Stopping cron.service - Regular background program processing daemon...
+Sep 11 14:17:41 ip-10-81-98-248 systemd[1]: cron.service: Deactivated successfully.
+Sep 11 14:17:41 ip-10-81-98-248 systemd[1]: Stopped cron.service - Regular background program processing daemon.
+Sep 11 14:17:41 ip-10-81-98-248 systemd[1]: cron.service: Consumed 1.123s CPU time.
+-- Boot 97f4d70d1a7d4d1e8a2a31ac6e224935 --
+Sep 25 22:07:18 ip-10-65-72-89 systemd[1]: Started cron.service - Regular background program processing daemon.
+Sep 25 22:07:18 ip-10-65-72-89 (cron)[962]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Sep 25 22:07:18 ip-10-65-72-89 cron[962]: (CRON) INFO (pidfile fd = 3)
+Sep 25 22:07:18 ip-10-65-72-89 cron[962]: (CRON) INFO (Running @reboot jobs)
+Sep 25 22:07:18 ip-10-65-72-89 CRON[993]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Sep 25 22:07:18 ip-10-65-72-89 CRON[994]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Sep 25 22:07:18 ip-10-65-72-89 CRON[1015]: (root) CMD (/bin/bash /root/Scripts/pull_vpns.sh)
+Sep 25 22:07:18 ip-10-65-72-89 CRON[1016]: (root) CMD (/bin/bash /root/Scripts/displayip.sh)
+Sep 25 22:07:19 ip-10-65-72-89 CRON[994]: pam_unix(cron:session): session closed for user root
+Sep 25 22:07:21 ip-10-65-72-89 usermod[1382]: change user 'root' password
+Sep 25 22:07:22 ip-10-65-72-89 CRON[993]: (CRON) info (No MTA installed, discarding output)
+Sep 25 22:07:22 ip-10-65-72-89 CRON[993]: pam_unix(cron:session): session closed for user root
+Sep 25 22:09:01 ip-10-65-72-89 CRON[3763]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+Sep 25 22:09:01 ip-10-65-72-89 CRON[3764]: (root) CMD (  [ -x /usr/lib/php/sessionclean ] && if [ ! -d /run/systemd/system ]; then /usr/lib/php/sessionclean; fi)
+Sep 25 22:09:01 ip-10-65-72-89 CRON[3763]: pam_unix(cron:session): session closed for user root
+Sep 25 22:10:39 ip-10-65-72-89 systemd[1]: Stopping cron.service - Regular background program processing daemon...
+Sep 25 22:10:39 ip-10-65-72-89 systemd[1]: cron.service: Deactivated successfully.
+Sep 25 22:10:39 ip-10-65-72-89 systemd[1]: Stopped cron.service - Regular background program processing daemon.
+Sep 25 22:10:39 ip-10-65-72-89 systemd[1]: cron.service: Consumed 1.225s CPU time, 35.8M memory peak, 0B memory swap peak.
+Sep 25 22:10:47 ip-10-65-72-89 systemd[1]: Started cron.service - Regular background program processing daemon.
+Sep 25 22:10:47 ip-10-65-72-89 (cron)[4650]: cron.service: Referenced but unset environment variable evaluates to an empty string: EXTRA_OPTS
+Sep 25 22:10:47 ip-10-65-72-89 cron[4650]: (CRON) INFO (pidfile fd = 3)
+Sep 25 22:10:47 ip-10-65-72-89 cron[4650]: (CRON) INFO (Skipping @reboot jobs -- not system startup)
