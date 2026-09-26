@@ -3,7 +3,6 @@ with open("cron_log.txt") as cron_file:
 
 commands_counter= 0
 
-
 for line in lines:
     
     if "CMD" in line:
